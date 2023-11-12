@@ -3,7 +3,6 @@ var word = 'Hello';
 
 void main() {
   var i = 15, e = 5;
-
   if (i == e || e > 3) {
     print('Hello E ');
   } else if (i > e) {
@@ -30,6 +29,12 @@ void main() {
     default:
       print('Number is unknow');
   }
+
+  var nums = [5, 7, 8, 'hello', true]; // List()
+  nums.add(7);
+  nums.addAll([5, 7, 3, 2]);
+
+  print(nums);
 
   double point = 4.5;
   point++;
