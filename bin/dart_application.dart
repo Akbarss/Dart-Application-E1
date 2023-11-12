@@ -2,6 +2,35 @@ const num = 0;
 var word = 'Hello';
 
 void main() {
+  var i = 15, e = 5;
+
+  if (i == e || e > 3) {
+    print('Hello E ');
+  } else if (i > e) {
+    print('i > e');
+  } else if (i < e) {
+    print('i < e');
+  } else {
+    print('else');
+  }
+
+  var res = i == 5 ? 10 : 20;
+
+  double digit = 5;
+  switch (digit) {
+    case 4:
+      print('Equal 4');
+      break;
+    case 5:
+      print('Equal 5');
+      break;
+    case 7:
+      print('Equal 7');
+      break;
+    default:
+      print('Number is unknow');
+  }
+
   double point = 4.5;
   point++;
 
@@ -20,4 +49,11 @@ void main() {
   dynamcData = 'word';
   dynamcData = false;
   print(dynamcData);
+
+  var a = 15, b = 5;
+  print('+ : ${a + b}');
+  print('- : ${a - b}');
+  print('* : ${a * b}');
+  print('/ : ${a ~/ b}');
+  print('% : ${a % b}');
 }
