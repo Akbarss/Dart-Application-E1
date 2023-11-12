@@ -1,4 +1,4 @@
-var num = 0;
+const num = 0;
 var word = 'Hello';
 
 void main() {
@@ -13,5 +13,11 @@ void main() {
   bool isDart;
   isDart = true;
 
-  print(point);
+  print('Pri: $point. More: ${some.toUpperCase()}');
+
+// js - let = dart - dynamic
+  dynamic dynamcData = 5;
+  dynamcData = 'word';
+  dynamcData = false;
+  print(dynamcData);
 }
