@@ -81,4 +81,13 @@ void main() {
   print('* : ${a * b}');
   print('/ : ${a ~/ b}');
   print('% : ${a % b}');
+
+  var res2 = sum(6, 7);
+  print('Res: $res2');
+}
+
+// Func
+
+int sum(a, b) {
+  return a + b;
 }
