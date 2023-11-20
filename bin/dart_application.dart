@@ -1,7 +1,27 @@
+// ignore_for_file: unused_local_variable, duplicate_ignore
+
 const num = 0;
 var word = 'Hello';
 
+// ignore: duplicate_ignore
 void main() {
+  var nums2 = [5, 7, 8, 2, 5];
+
+  for (var i = 0; i < nums2.length; i++) {
+    nums2[i]++;
+    print('Element ${nums2[i]}');
+  }
+
+  for (var el in nums2) {
+    el++;
+    print('Element: $el');
+  }
+
+  nums2.forEach((element) {
+    element++;
+    print(element);
+  });
+
   var i = 15, e = 5;
   if (i == e || e > 3) {
     print('Hello E ');
